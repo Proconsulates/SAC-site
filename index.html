@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="/styles.css" />
     <title>The Sac</title>
 </head>
 
@@ -16,7 +18,6 @@
             <h1 class="title">The Sac</h1>
             <p>The Squirrel Annihilation Cult</p>
         </div>
-
         <div id="lineDrawing">
             <svg class="lines" width="103.87598mm" height="82.952362mm" viewBox="0 0 103.87598 82.952362" version="1.1"
                 id="svg5" inkscape:version="1.1 (c68e22c387, 2021-05-23)" sodipodi:docname="drawing-1.svg"
@@ -35,7 +36,7 @@
                     transform="translate(-43.845907,-117.86608)">
                     <g id="g1365">
                         <path class="path" stroke="black" stroke-width="2.265" fill="none"
-                        style="stroke-linecap:round;stroke-linejoin:round;"
+                            style="stroke-linecap:round;stroke-linejoin:round;"
                             d="m 137.79086,120.65625 c 0,0 -13.20793,-4.9976 -22.13221,2.4988 -8.92428,7.49639 -11.0661,11.78004 -17.134612,27.48678 -6.06851,15.70673 3.212742,30.34254 3.212742,30.34254 l -6.782453,4.9976 c 0,0 1.784855,-18.91947 -1.070914,-20.34736 -2.85577,-1.42788 2.498796,-0.71394 -7.139424,-14.63581 -9.638221,-13.92188 -15.34976,-13.56491 -15.34976,-13.56491 l 3.21274,-15.34976 -5.711536,6.42548 -2.141829,-5.35456 c 0,0 -1.427885,5.71154 -3.56971,7.85336 -2.141826,2.14183 -11.780049,4.64063 -13.564905,8.21034 -1.784855,3.56971 -4.640625,6.42548 -4.640625,6.42548 l 3.569711,3.92668 c 0,0 9.638223,1.78486 11.780049,1.78486 2.141826,0 0,2.85577 0,2.85577 0,0 -7.496395,-1.78486 -9.28125,0.35697 -1.784855,2.14183 -3.926681,5.71154 -3.926681,5.71154 0,0 4.997595,1.78485 6.42548,0.71394 1.427885,-1.07091 4.283652,1.78486 8.567306,4.64062 4.283655,2.85577 -0.713941,-0.71394 -0.713941,-0.71394 0,0 0.713941,13.56491 1.427885,13.92188 0.713941,0.35697 -5.711539,0 -5.711539,2.85577 0,2.85577 -1.070914,4.99759 6.42548,10.70913 7.496395,5.71154 -2.855769,-3.56971 -7.853365,2.14183 -4.997595,5.71154 -4.283654,0.35697 -4.283654,0.35697 0,0 -8.210336,5.71154 6.42548,4.64062 14.635818,-1.07091 22.132213,-0.35697 22.132213,-0.35697 0,0 4.640625,-1.07091 6.42548,-3.21274 1.784855,-2.14182 -4.640625,1.07092 13.207934,2.85577 17.848558,1.78486 27.486778,-25.34495 27.486778,-25.34495 l -0.35697,-9.63822 c 0,0 -0.35697,-4.9976 12.49399,-12.85096 12.85096,-7.85337 4.99759,-25.70193 4.99759,-25.70193 z"
                             id="path888" />
                     </g>
@@ -44,18 +45,23 @@
         </div>
     </div>
 
-    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
-    <script type="text/javascript">
-        anime({
-            targets: '#lineDrawing .lines .path',
-            strokeDashoffset: [anime.setDashoffset, 0],
-            easing: 'easeInOutSine',
-            duration: 1500,
-            delay: function(el, i) { return i * 250 },
-            direction: 'alternate',
-            loop: true
-        });
-    </script>-->
+    <div class="info">
+        <p>Do you hate squirrels? Do you want to rip their heads off as soon as you see them? Do you feel joy in
+            watching them suffer? Do you want to, at all costs, destroy the little vermin until they are nothing but a
+            pile of organs and blood on the sidewalk? If you do, you have come to the right place. Here we created a
+            cult about terminating squirrels. The SAC (Squirrel Annihilating Cult), is fully about completely killing,
+            destroying, and ripping every squirrel body that we ever see to shreds. Of course, the SAC is also about
+            hanging out and having fun. We don't have any hazing rituals for initiation, just join, have fun and kill
+            all squirrels that ever dare to cross your path!
+        </p>
+        <h4>Do you hate squirrels with every fiber of your entire existence?</h4>
+        <form>
+            <input class="button yes" type="submit" name="yes-no" value="Yes">
+            <input class="button no" type="submit" name="yes-no" value="No">
+        </form>
+    </div>
+
+    <script src="main.js"></script>
 </body>
 
 </html>
